@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+body {
+    background: rgb(190, 190, 199);
+    font-family: 'Zilla Slab', serif;
+    margin: 0em;
+}
+.navbar {
+    display: no;
+    background: white;
+    padding: 1em;
+    height: 30%;
+}
+.image-head {
+   
+    display: flex ;
+    display: -ms-flexbox;
+    place-content: space-between;
+}
+nav {
+    display: none;
+}
+#mobile-view {
+    cursor: pointer;
+}
+ h1 {
+     font-size: 2em;
+ }
+
+.sub-button{
+    text-decoration: none;
+    color: black;
+    lighting-color: blanchedalmond;
+    background: whitesmoke;
+    padding: 0.7em;
+    border-radius: 1em;
+  
+    margin-right: 2em;
+    text-align: center;
+}
+.hero {
+    text-align: center;
+}
+.center-image {
+    margin-top: 3em;
+    margin-left: 20em;
+    margin-right: 5em;
+}
+
+.main-container {
+    
+    height: 100%;
+    width: 100%;
+    
+  
+    
+  
+  }
+.search-container {
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background: rgba(245, 245, 245, 0.329);
+    display: flex;
+    padding-left: 7px;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 40px;
+    gap: 1%;
+   
+  }
+  .input {
+    border: none;
+    outline: none;
+    width: 80%;
+  }
+  .search {
+    
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: rgb(2, 2, 2);
+    height: 100%;
+    
+    background-color :  rgba(245, 245, 245, 0.329)
+  }
+  .info {
+    width: 540px;
+    height: 09p;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: rgba(245, 245, 245, 0.774);
+    display: flex;
+    padding-left: 7px;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 60px;
+    gap: 1%;
+     
+  }
